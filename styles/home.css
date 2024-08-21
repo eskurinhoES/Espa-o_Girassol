@@ -14,23 +14,42 @@
 }
 
 nav {
-    display: flex;
+    display: flexbox;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 25px;
-    background-color: #191919;
+    text-align: left;
+    line-height: 3.5rem;
+    justify-items: left;
+    background-color: hsla(0, 0%, 0%, 0.764);
+}
+.espaco div{
+    display: block;
+    margin-left: 0;
+}
+
+nav section .logo{
+    width: 70vw;
+    height: 65vh;
+    margin-left: 2vw;
+    margin-right: 20vw;
+    padding: 0.2rem;
+    background-color: #1b4909;
+    
+}
+
+nav h3{
+    display: block;
+    color: #eee9e9;
 }
 
 .portfolio {
+    
     color: #ffffff;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 600;
 }
 
 .portfolio span {
-    color: #f9004d;
+    color: #75ff4b;
 }
 
 li {
