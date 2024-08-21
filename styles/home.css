@@ -80,8 +80,9 @@ li:hover {
 }
 
 .link-menu:hover{
+    transition: 0.8s;
     font-size: 2.2rem;
-    color: #536e48;
+    color: #7bcd5b;
 }
 
 .meu-nome {
