@@ -6,11 +6,11 @@
 }
 
 .caixa-principal img{
-    height: 85vh;
+    height: 30vh;
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-color: #6a5454;
+    background-color: #752d2d;
 }
 
 nav {
@@ -21,26 +21,26 @@ nav {
     justify-items: left;
     background-color: hsla(0, 0%, 0%, 0.764);
 }
-.espaco div{
+.espaco h3{
+    font-size: 3.5rem;
     display: block;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin: 0 auto 2rem;
+    color: #8db6aa;
 }
 
 nav section .logo{
-    width: 70vw;
-    height: 65vh;
-    margin-left: 2vw;
-    margin-right: 20vw;
+    width: 75vw;
+    height: 50vh;
+    margin: 3rem auto 0;
     padding: 0.2rem;
-    background-color: #1b4909;
+    background-color: #0a8f50;
     
 }
 
 nav h3{
-    font-size: 1.5rem;
+    font-size: 5rem;
     display: block;
-    color: #eee9e9;
+    color: #4a1818;
 }
 
 .portfolio {
@@ -108,20 +108,27 @@ h1 span {
 
 section {
     
-    display: flex;
+    display: inline-block;
     align-items: center;
     padding: 60px 15%;
-    background-color: #1c1a1a;
+    background-color: #0a8f50;
 }
 
 section img {
     height: 400px;
     border-radius: 100%;
-    border: 2px solid #062108;
+    border: 2px solid #0a8f50;
     margin-right: 30px;
     margin-left: 0;
     padding: 10px 10px 10px 10px;
     background-color: aquamarine;
+}
+
+ nav section h3{
+    font-size: 12rem;
+    text-align: center;
+    display: inline;
+    color: #8db6aa;
 }
 
 section div h2 {
